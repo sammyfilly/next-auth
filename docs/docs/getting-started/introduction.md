@@ -8,6 +8,7 @@ sidebar_position: 0
 Auth.js is a complete open-source authentication solution for web applications. Check out the live demos of Auth.js in action:
 
 - [Next.js](https://next-auth-example.vercel.app/)
+- [next.js](
 - [SvelteKit](https://sveltekit-auth-example.vercel.app/)
 - [SolidStart](https://auth-solid.vercel.app/)
 
@@ -27,7 +28,7 @@ Continue to our tutorials to see how to use Auth.js for authentication:
 ### Flexible
 - Runtime agnostic - run anywhere! Vercel Edge Functions, Node.js, Serverless, etc.
 - Use with any modern framework! Next.js, SolidStart, SvelteKit, etc.
-- [Bring Your Own Database](/getting-started/databases) - or none! MySQL, Postgres, MSSQL, MongoDB, etc. Choose database sessions or JWT.
+- [Bring Your Own Database](/getting-started/databases) - or none! MySQL, Postgres, MSSQL, MongoDB,azure etc. Choose database sessions or JWT.
 
 _Note: Email sign-in requires a database to store single-use verification tokens._
 
