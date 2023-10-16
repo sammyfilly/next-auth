@@ -224,7 +224,7 @@ importers:
       jest: ^27.4.3
       jsonwebtoken: ^8.5.1
       ts-jest: ^27.0.3
-      undici: 5.22.1
+      undici: 5.26.2
     dependencies:
       '@auth/core': link:../core
       jsonwebtoken: 8.5.1
@@ -236,7 +236,7 @@ importers:
       '@types/node-fetch': 2.6.2
       jest: 27.5.1
       ts-jest: 27.1.5_lvqy56smyn5gszh3zmisfmhukm
-      undici: 5.22.1
+      undici: 5.26.2
 
   packages/adapter-dynamodb:
     specifiers:
@@ -6655,6 +6655,11 @@ packages:
     engines: {node: '>=10.17.0'}
     dependencies:
       text-decoding: 1.0.0
+    dev: true
+
+  /@fastify/busboy/2.0.0:
+    resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
+    engines: {node: '>=14'}
     dev: true
 
   /@fauna-labs/fauna-schema-migrate/2.2.1_faunadb@4.6.0:
@@ -28196,11 +28201,11 @@ packages:
       busboy: 1.6.0
     dev: true
 
-  /undici/5.22.1:
-    resolution: {integrity: sha512-Ji2IJhFXZY0x/0tVBXeQwgPlLWw13GVzpsWPQ3rV50IFMMof2I55PZZxtm4P6iNq+L5znYN9nSTAq0ZyE6lSJw==}
+  /undici/5.26.2:
+    resolution: {integrity: sha512-a4PDLQgLTPHVzOK+x3F79/M4GtyYPl+aX9AAK7aQxpwxDwCqkeZCScy7Gk5kWT3JtdFq1uhO3uZJdLtHI4dK9A==}
     engines: {node: '>=14.0'}
     dependencies:
-      busboy: 1.6.0
+      '@fastify/busboy': 2.0.0
     dev: true
 
   /unherit/1.1.3:
