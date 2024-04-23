@@ -19,7 +19,7 @@
   "dependencies": {
     "@auth/core": "latest",
     "@solid-auth/next": "^0.0.19",
-    "@solidjs/meta": "^0.28.0",
+    "@solidjs/meta": "^0.29.3",
     "@solidjs/router": "^0.6.0",
     "solid-js": "^1.5.7",
     "solid-start": "^0.2.9",
